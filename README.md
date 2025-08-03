@@ -2,6 +2,20 @@
 
 This project provides an automated system designed to streamline the process of acquiring, generating, reviewing, and editing content for book publication. It leverages AI models, web scraping, and a version control system to enhance efficiency and productivity.
 
+## Screenshots
+
+- **Scrapped content with site Screenshot**
+-![image alt](https://github.com/shahil5z/Automated-Book-Publication-Workflow/blob/f0b2a6ce865ac64af0476b94b43c249e17869d7e/Sample-IMG/1.png)
+
+- **Generate Content**
+-![image alt](https://github.com/shahil5z/Automated-Book-Publication-Workflow/blob/f0b2a6ce865ac64af0476b94b43c249e17869d7e/Sample-IMG/2.%20Generate%20Content.png)
+
+- **Review Content** 
+-![image alt](https://github.com/shahil5z/Automated-Book-Publication-Workflow/blob/f0b2a6ce865ac64af0476b94b43c249e17869d7e/Sample-IMG/3.%20Review%20Content.png)
+
+- **Edit Manually**
+-![image alt](https://github.com/shahil5z/Automated-Book-Publication-Workflow/blob/f0b2a6ce865ac64af0476b94b43c249e17869d7e/Sample-IMG/4.%20Edit%20Manually.png)
+
 ## Features
 
 - **Content Acquisition**: Scrape text content and take a screenshot from a specified URL using Playwright and BeautifulSoup.
@@ -29,12 +43,13 @@ This project provides an automated system designed to streamline the process of 
 
 2. **Create a Virtual Environment**
 
-python -m venv venv
-# Activate it:
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+    python -m venv venv
+
+**Activate it On Windows:**
+    venv\Scripts\activate
+
+**Activate On macOS/Linux:**
+    source venv/bin/activate
 
 3. **Install Dependencies**
 
@@ -43,10 +58,10 @@ source venv/bin/activate
 
 4. **Set Up Environment Variables**
 
-    OPENAI_API_KEY=your_openai_api_key_here
+    OPENAI_API_KEY=your_openai_api_key_here &
     CHROMA_DB_PATH=chromadb_path_here
 
-5. **Run the Application**
+6. **Run the Application**
 
     streamlit run main.py
 
