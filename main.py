@@ -12,7 +12,7 @@ import io
 # Load environment variables
 load_dotenv()
 
-# Minimal CSS for clean and professional look
+# CSS for UI
 st.markdown("""
     <style>
     .main { max-width: 900px; margin: 0 auto; padding: 20px; }
